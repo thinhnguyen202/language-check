@@ -13,12 +13,8 @@
 		B333DEC8259D5F5A00059598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B333DEC6259D5F5A00059598 /* Main.storyboard */; };
 		B333DECA259D5F6000059598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B333DEC9259D5F6000059598 /* Assets.xcassets */; };
 		B333DECD259D5F6000059598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B333DECB259D5F6000059598 /* LaunchScreen.storyboard */; };
-		B333DED8259D5F6000059598 /* DemoTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333DED7259D5F6000059598 /* DemoTextFieldTests.swift */; };
-		B333DEE3259D5F6000059598 /* DemoTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333DEE2259D5F6000059598 /* DemoTextFieldUITests.swift */; };
 		B333DEF5259D5FD600059598 /* CheckLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333DEF3259D5FD600059598 /* CheckLanguageViewController.swift */; };
 		B333DEF6259D5FD600059598 /* CheckLanguageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B333DEF4259D5FD600059598 /* CheckLanguageViewController.xib */; };
-		B333DF00259D74CE00059598 /* CheckLanguageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333DEFF259D74CE00059598 /* CheckLanguageViewModel.swift */; };
-		B333DF0B259D7F5F00059598 /* APITranslate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333DF0A259D7F5F00059598 /* APITranslate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,15 +44,9 @@
 		B333DECC259D5F6000059598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B333DECE259D5F6000059598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B333DED3259D5F6000059598 /* DemoTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B333DED7259D5F6000059598 /* DemoTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTextFieldTests.swift; sourceTree = "<group>"; };
-		B333DED9259D5F6000059598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B333DEDE259D5F6000059598 /* DemoTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B333DEE2259D5F6000059598 /* DemoTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTextFieldUITests.swift; sourceTree = "<group>"; };
-		B333DEE4259D5F6000059598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B333DEF3259D5FD600059598 /* CheckLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLanguageViewController.swift; sourceTree = "<group>"; };
 		B333DEF4259D5FD600059598 /* CheckLanguageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckLanguageViewController.xib; sourceTree = "<group>"; };
-		B333DEFF259D74CE00059598 /* CheckLanguageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLanguageViewModel.swift; sourceTree = "<group>"; };
-		B333DF0A259D7F5F00059598 /* APITranslate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITranslate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				B333DEBF259D5F5A00059598 /* DemoTextField */,
-				B333DED6259D5F6000059598 /* DemoTextFieldTests */,
-				B333DEE1259D5F6000059598 /* DemoTextFieldUITests */,
 				B333DEBE259D5F5A00059598 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,28 +104,8 @@
 				B333DECE259D5F6000059598 /* Info.plist */,
 				B333DEF3259D5FD600059598 /* CheckLanguageViewController.swift */,
 				B333DEF4259D5FD600059598 /* CheckLanguageViewController.xib */,
-				B333DEFF259D74CE00059598 /* CheckLanguageViewModel.swift */,
-				B333DF0A259D7F5F00059598 /* APITranslate.swift */,
 			);
 			path = DemoTextField;
-			sourceTree = "<group>";
-		};
-		B333DED6259D5F6000059598 /* DemoTextFieldTests */ = {
-			isa = PBXGroup;
-			children = (
-				B333DED7259D5F6000059598 /* DemoTextFieldTests.swift */,
-				B333DED9259D5F6000059598 /* Info.plist */,
-			);
-			path = DemoTextFieldTests;
-			sourceTree = "<group>";
-		};
-		B333DEE1259D5F6000059598 /* DemoTextFieldUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B333DEE2259D5F6000059598 /* DemoTextFieldUITests.swift */,
-				B333DEE4259D5F6000059598 /* Info.plist */,
-			);
-			path = DemoTextFieldUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,8 +241,6 @@
 			files = (
 				B333DEC5259D5F5A00059598 /* ViewController.swift in Sources */,
 				B333DEC1259D5F5A00059598 /* AppDelegate.swift in Sources */,
-				B333DF00259D74CE00059598 /* CheckLanguageViewModel.swift in Sources */,
-				B333DF0B259D7F5F00059598 /* APITranslate.swift in Sources */,
 				B333DEC3259D5F5A00059598 /* SceneDelegate.swift in Sources */,
 				B333DEF5259D5FD600059598 /* CheckLanguageViewController.swift in Sources */,
 			);
@@ -284,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B333DED8259D5F6000059598 /* DemoTextFieldTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B333DEE3259D5F6000059598 /* DemoTextFieldUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
